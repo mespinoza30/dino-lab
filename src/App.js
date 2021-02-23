@@ -2,7 +2,6 @@ import './App.css';
 
 function App() {
   const name = 'Marisela';
-  const comment ='Here are the comments:'
   const post = {
     title: "Dinosaurs Are Awesome",
     author: "Stealthy Stegosaurus",
@@ -17,7 +16,7 @@ function App() {
       <p><h1>Title: {post.title}</h1></p>
       <p>Author: {post.author}</p>
       <p>{post.body}</p>
-      <p><h3>{comment}</h3></p>
+      <p><h3>Here are the comments</h3></p>
       <p>{post.comments[0]}</p>
       <p>{post.comments[1]}</p>
       <p>{post.comments[2]}</p>
